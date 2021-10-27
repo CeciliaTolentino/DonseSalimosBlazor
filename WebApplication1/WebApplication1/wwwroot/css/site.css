@@ -5,14 +5,7 @@ a.navbar-brand {
   word-break: break-all;
 }
 
-.gradient-custom {
-    /* fallback for old browsers */
-    background: #6a11cb;
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, #ff0096, #52258a);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, #ff0096, #52258a);
-}
+
 .icono{
     width: 3%;
 }
@@ -80,6 +73,8 @@ body {
 }
 
 .btn01 {
+    color: white;
+    font-weight: bold;
     background: #6a11cb;
     /* Chrome 10-25, Safari 5.1-6 */
     background: -webkit-linear-gradient(to right, #ff0096, #52258a);
@@ -87,9 +82,7 @@ body {
     background: linear-gradient(to right, #ff0096, #52258a);
 }
 
-    .btn01 > p {
-        background-color: aliceblue; /*linear-gradient(to right, red , yellow);*/
-    }
+
 
 .carousel-item img {
     width: 100%;
